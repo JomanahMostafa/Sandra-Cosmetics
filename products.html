@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="products.css" />
+</head>
+
+<body>
+
+    <header id="header" class="header">
+        <a href="#" class="logo"><i class="fas fa-female"></i> Sandra Cosmetics</a>
+
+        <nav class="navbar" id="navbar">
+            <a href="index.html" target="_blank" rel="noopener noreferrer">Home</a>
+            <a href="signin.html" target="_blank" rel="noopener noreferrer">Sign in</a>
+            <a href="#">Help me</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn" aria-label="menu button"></div>
+            <a href="#" class="fas fa-shopping-cart" aria-label="cart"></a>
+        </div>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="slide active" style="background:url('images/cover1.webp') no-repeat center/cover;">
+            <div class="content">
+                <h3>Welcome to <br />Sandra Cosmetics</h3>
+                <h4>
+                    We offer a wide range of beauty products <br /> to enhance your natural beauty.
+                </h4>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="slide" style="background:url('images/cover2.jpg') no-repeat center/cover;">
+            <div class="content">
+                <h3>Welcome to<br /> Sandra Cosmetics</h3>
+                <h4>
+                    We offer a wide range of beauty products <br /> to enhance your natural beauty.
+                </h4>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="slide" style="background:url('images/cover3.jpg') no-repeat center/cover;">
+            <div class="content">
+                <h3>Welcome to <br />Sandra Cosmatics</h3>
+                <h4>
+                    We offer a wide range of beauty products<br /> to enhance your natural beauty.
+                </h4>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div id="next-slide" onclick="next()" class="fas fa-angle-right" aria-label="next slide"></div>
+        <div id="pre-slide" onclick="pre()" class="fas fa-angle-left" aria-label="previous slide"></div>
+    </section>
+
+
+    <section class="category">
+        <div class="box-container">
+            <a href="#" class="box reveal">
+                <img src="images/cate1.jpg" width="250" height="300" alt="Makeup" />
+                <h3>Makeup</h3>
+            </a>
+
+            <a href="#" class="box reveal">
+                <img src="images/cate6.jpg" width="250" height="300" alt="Haircare" />
+                <h3>Haircare</h3>
+            </a>
+
+            <a href="#" class="box reveal">
+                <img src="images/cate7.jpg" width="250" height="300" alt="Skincare" />
+                <h3>Skincare</h3>
+            </a>
+
+            <a href="#" class="box reveal">
+                <img src="images/cate8.jpg" width="250" height="300" alt="Perfumes" />
+                <h3>Perfumes</h3>
+            </a>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="image reveal">
+            <img src="images/about.jpg" alt="about image" />
+        </div>
+
+        <div class="content">
+            <div class="box reveal delay-1">
+                <h3>Sandra Cosmatics Sales is on</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facilis minus distinctio! At ab, quo id deserunt illum quam cum.
+                </p>
+                <a href="#" class="btn" id="about-btn">read more</a>
+            </div>
+
+            <div class="icons-container">
+                <div class="icons reveal delay-2">
+                    <i class="fas fa-address-card"></i>
+                    <p>address card</p>
+                </div>
+
+                <div class="icons reveal delay-3">
+                    <i class="fas fa-award"></i>
+                    <p>award card</p>
+                </div>
+
+                <div class="icons reveal delay-4">
+                    <i class="fas fa-gift"></i>
+                    <p>gift card</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="shop" id="shop">
+        <h1 class="heading">Our <span> Products </span></h1>
+        <div class="box-container">
+            <div class="box reveal">
+                <div class="img">
+                    <img src="images/prod1.jpg" width="300" height="350" alt="Mascara" />
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye" aria-label="view"></a>
+                        <a href="#" class="fas fa-heart" aria-label="like"></a>
+                        <a href="#" class="fas fa-share" aria-label="share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Mascara</h3>
+                    <div class="price">$100.00 - <span>$180.00</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box reveal delay-1">
+                <div class="img">
+                    <img src="images/prod2.jpg" width="300" height="350" alt="Eyeshadow" />
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye" aria-label="view"></a>
+                        <a href="#" class="fas fa-heart" aria-label="like"></a>
+                        <a href="#" class="fas fa-share" aria-label="share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Eyeshadow</h3>
+                    <div class="price">$60.00 - <span>$250.00</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box reveal delay-2">
+                <div class="img">
+                    <img src="images/prod3.jpg" width="300" height="350" alt="Eyeliner" />
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye" aria-label="view"></a>
+                        <a href="#" class="fas fa-heart" aria-label="like"></a>
+                        <a href="#" class="fas fa-share" aria-label="share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Eyeliner</h3>
+                    <div class="price">$65.00 - <span>$200.00</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box reveal delay-3">
+                <div class="img">
+                    <img src="images/prod4.jpg" width="300" height="350" alt="Lipgloss" />
+                    <div class="icons">
+                        <a href="#" class="fas fa-eye" aria-label="view"></a>
+                        <a href="#" class="fas fa-heart" aria-label="like"></a>
+                        <a href="#" class="fas fa-share" aria-label="share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Lipgloss</h3>
+                    <div class="price">$100.00</div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services">
+        <div class="box reveal">
+            <img src="images/delivery-truck-4439.png" alt="free delivery icon" />
+            <h3>Free delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adip.</p>
+        </div>
+        <div class="box reveal delay-1">
+            <img src="images/icon2 (4).png" alt="secure payment icon" />
+            <h3>Secure Payment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adip.</p>
+        </div>
+        <div class="box reveal delay-2">
+            <img src="images/phone-ringing-505.png" alt="24/7 support icon" />
+            <h3>24/7 Support</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adip.</p>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
